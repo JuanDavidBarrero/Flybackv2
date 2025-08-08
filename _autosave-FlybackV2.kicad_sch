@@ -5360,6 +5360,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 34.29) (xy 40.64 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cf5d3a-caa0-422b-ab71-4e568483b898")
+	)
+	(wire
+		(pts
 			(xy 393.7 66.675) (xy 393.7 64.77)
 		)
 		(stroke
@@ -5450,6 +5460,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 40.005) (xy 40.64 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb5bab3-ed20-49cd-927e-0ffcbb821c2b")
+	)
+	(wire
+		(pts
 			(xy 364.49 70.485) (xy 364.49 73.025)
 		)
 		(stroke
@@ -5457,6 +5477,16 @@
 			(type default)
 		)
 		(uuid "703aefb9-53b8-4f43-bb15-c3b339452241")
+	)
+	(wire
+		(pts
+			(xy 40.64 40.005) (xy 40.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f4b5b8-5c01-4669-a7f9-c6e521375fbf")
 	)
 	(wire
 		(pts
@@ -6107,6 +6137,16 @@
 			(type default)
 		)
 		(uuid "b8e1a2c5-c237-4fb7-9dcb-788e52bc69be")
+	)
+	(wire
+		(pts
+			(xy 35.56 37.465) (xy 40.64 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba825978-9320-4bba-b02e-81af4e30f89c")
 	)
 	(wire
 		(pts
@@ -12538,6 +12578,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 40.64 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0b4002c-446a-48d2-8db7-9d7f6e872de5")
+		(property "Reference" "#PWR01"
+			(at 40.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 40.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "585a6fdf-a431-4bf0-a3e1-eebb60b51126")
+		)
+		(instances
+			(project "FlybackV2"
+				(path "/2c1cea0d-9227-4f29-82f7-87c59afd4ee4"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 319.405 154.305 0)
 		(unit 1)
@@ -12739,6 +12845,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 40.64 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5f17871-15a4-4396-99eb-54e2c502b6b9")
+		(property "Reference" "#PWR03"
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47922c10-2b27-4c6c-b62f-935f7c7269ff")
+		)
+		(instances
+			(project "FlybackV2"
+				(path "/2c1cea0d-9227-4f29-82f7-87c59afd4ee4"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 55.88 93.345 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12798,6 +12970,74 @@
 			(project "FlybackV2"
 				(path "/2c1cea0d-9227-4f29-82f7-87c59afd4ee4"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 30.48 37.465 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac1f2357-cba3-4d2c-ac8d-80635a63918b")
+		(property "Reference" "J1"
+			(at 30.48 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Power"
+			(at 30.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 30.48 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d97dcd8-08b5-4035-ab33-dc1eb3e3fac4")
+		)
+		(pin "1"
+			(uuid "f3ededfd-cb4d-4141-a4a5-82971cbbded3")
+		)
+		(instances
+			(project "FlybackV2"
+				(path "/2c1cea0d-9227-4f29-82f7-87c59afd4ee4"
+					(reference "J1")
 					(unit 1)
 				)
 			)
