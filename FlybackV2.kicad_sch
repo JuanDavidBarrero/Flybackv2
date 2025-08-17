@@ -7223,7 +7223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 378.46 62.2362 0)
 			(effects
 				(font
@@ -7878,7 +7878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 190.246 184.531 90)
 			(effects
 				(font
@@ -7948,7 +7948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 241.3 249.555 0)
 			(effects
 				(font
@@ -10039,7 +10039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 387.985 62.2362 0)
 			(effects
 				(font
@@ -11055,7 +11055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 245.745 163.1949 0)
 			(effects
 				(font
@@ -11329,7 +11329,7 @@
 				)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.22uF"
 			(at 279.4 53.34 0)
 			(effects
 				(font
@@ -11559,7 +11559,7 @@
 				)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.22uF"
 			(at 279.4 76.835 0)
 			(effects
 				(font
@@ -12111,7 +12111,7 @@
 				)
 			)
 		)
-		(property "Value" "0.22u"
+		(property "Value" "0.22uF"
 			(at 279.4 64.135 0)
 			(effects
 				(font
@@ -12255,7 +12255,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 343.535 60.9662 0)
 			(effects
 				(font
@@ -12477,7 +12477,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 104.14 73.0249 0)
 			(effects
 				(font
@@ -12546,7 +12546,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 297.815 66.04 0)
 			(effects
 				(font
@@ -12625,7 +12625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 202.565 236.855 0)
 			(effects
 				(font
@@ -14318,7 +14318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "0"
 			(at 116.2051 59.055 90)
 			(effects
 				(font
@@ -14486,6 +14486,15 @@
 			)
 		)
 		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 90.805 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C9809"
 			(at 90.805 56.515 0)
 			(effects
 				(font
@@ -15076,7 +15085,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 92.075 154.94 0)
 			(effects
 				(font
@@ -15703,7 +15712,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 237.49 184.1438 0)
 			(effects
 				(font
@@ -15837,7 +15846,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 208.915 183.5088 0)
 			(effects
 				(font
@@ -15961,7 +15970,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ff478615-1c22-4c2f-ad85-f70cc72b8a94")
+		(uuid "ff478615-1c22-4c2f-ad85-f70cc72b8a95")
 		(property "Reference" "#PWR0102"
 			(at 231.775 245.11 0)
 			(effects
@@ -16007,7 +16016,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "11d8e967-bb64-474f-979a-b2d1e7a6fe3d")
+			(uuid "11d8e967-bb64-474f-979a-b2d1e7a6fe3e")
 		)
 		(instances
 			(project "FlybackV2"
