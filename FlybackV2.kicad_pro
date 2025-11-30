@@ -517,7 +517,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Factory/",
+      "plot": "Factory/gerber/",
       "pos_files": "Factory/",
       "specctra_dsn": "",
       "step": "",
@@ -586,7 +586,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
           "show": true

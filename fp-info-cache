@@ -1,4 +1,4 @@
-24982347583448429
+25022829922562749
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58303,6 +58303,13 @@ BAT-SMD_BS-2016-B2AA001
 2
 2
 GssLibrary
+BAT-SMD_CR1220-2
+
+
+0
+4
+2
+GssLibrary
 CONN-SMD_DOSIN-806-0010
 
 
@@ -58345,6 +58352,13 @@ DIO-BG-SMD_UMSB
 4
 4
 GssLibrary
+DIO-BG-SMD_YBS
+
+
+0
+4
+4
+GssLibrary
 DIP-4_L6.4-W4.6-P2.54-LS7.6-BL
 
 
@@ -58366,6 +58380,20 @@ DPAK-3_L6.6-W6.1-P2.28-LS9.9-BR
 3
 3
 GssLibrary
+GDT-SMD_3P-L7.3-W5.0-L
+
+
+0
+3
+3
+GssLibrary
+IND-SMD_L3.8-W3.8
+
+
+0
+2
+2
+GssLibrary
 IND-SMD_L4.5-W4.1_TMPA0402SP
 
 
@@ -58386,6 +58414,13 @@ IND-SMD_L12.0-W12.0
 0
 2
 2
+GssLibrary
+IPEX-SMD_3P-L2.6-W2.6-LS3.0
+
+
+0
+3
+3
 GssLibrary
 LG96_MOD
 
@@ -58443,12 +58478,26 @@ MSOP-8_L3.0-W3.0-P0.65-LS5.0-BL
 8
 8
 GssLibrary
+MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL
+
+
+0
+10
+10
+GssLibrary
 QFN-60_L7.0-W7.0-P0.40-TL-EP3.4
 
 
 0
 61
 61
+GssLibrary
+RELAY-TH_G6J-2P-Y
+
+
+0
+8
+8
 GssLibrary
 RELAY-TH_HFD27-XXX
 
@@ -58470,6 +58519,20 @@ SMA_L4.3-W2.6-LS5.2-RD
 0
 2
 2
+GssLibrary
+SMA_L4.4-W2.6-LS5.0-BI
+
+
+0
+2
+2
+GssLibrary
+SMD-4_L6.5-W4.6-P2.54-LS10.3-TL
+
+
+0
+4
+4
 GssLibrary
 SOD-123_L2.7-W1.6-LS3.7-FD
 
@@ -58512,6 +58575,13 @@ SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL
 0
 14
 14
+GssLibrary
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL
+
+
+0
+16
+16
 GssLibrary
 SOIC-16_L10.3-W7.5-P1.27-LS10.3-BL
 
@@ -58583,6 +58653,13 @@ SOT-753_L3.1-W1.7-P0.95-LS3.0-BR
 5
 5
 GssLibrary
+SULLINS_NPTC202KFMS-RC
+
+
+0
+40
+40
+GssLibrary
 SW-SMD_JS202011JCQN
 
 
@@ -58591,6 +58668,13 @@ SW-SMD_JS202011JCQN
 6
 GssLibrary
 TO-92-3_L4.8-W3.7-P2.54-L
+
+
+0
+3
+3
+GssLibrary
+TO-252-2_L6.6-W6.1-P4.57-LS9.9-BR-CW
 
 
 0
@@ -58625,6 +58709,13 @@ TSOP-6_L3.0-W1.5-P0.95-LS2.8-BL
 6
 6
 GssLibrary
+TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL
+
+
+0
+5
+5
+GssLibrary
 TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL
 
 
@@ -58638,6 +58729,13 @@ USB-C-SMD_G-SWITCH_GT-USB-7010ASV
 0
 18
 13
+GssLibrary
+XM0110
+
+
+0
+16
+16
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -64869,6 +64967,20 @@ AUDIO-TH_HOOYA_PJ-320
 5
 3
 JuanDavid_Library
+BAT-SMD_CR1220-2
+
+
+0
+4
+2
+JuanDavid_Library
+BAT-TH_05200101Z
+
+
+0
+2
+2
+JuanDavid_Library
 BAT-TH_MY-1220-04
 
 
@@ -64938,6 +65050,13 @@ CRYSTAL-SMD_L11.4-W4.7-LS12.4
 0
 2
 2
+JuanDavid_Library
+DB9-TH_DT10121-M5N3-4F
+
+
+0
+11
+11
 JuanDavid_Library
 DIP-4_L6.4-W4.6-P2.54-LS7.6-BL
 
@@ -65044,6 +65163,13 @@ MSOP-8_L3.0-W3.0-P0.65-LS5.0-BL
 8
 8
 JuanDavid_Library
+MarLogo
+
+
+0
+0
+0
+JuanDavid_Library
 OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI
 
 
@@ -65100,6 +65226,20 @@ RELAY-TH_G5V-2
 8
 8
 JuanDavid_Library
+RELAY-TH_G6S-2-X
+
+
+0
+8
+8
+JuanDavid_Library
+RELAY-TH_N40782CXXXXX
+
+
+0
+8
+8
+JuanDavid_Library
 RELAY-TH_SRD-XXVDC-XL-C
 
 
@@ -65143,6 +65283,13 @@ SC-70-5_L2.1-W1.3-P0.65-LS2.1-BR
 5
 JuanDavid_Library
 SC-70-6_L2.0-W1.3-P0.65-LS2.1-BL
+
+
+0
+6
+6
+JuanDavid_Library
+SENSOR-SMD_AHT10
 
 
 0
@@ -100492,16 +100639,30 @@ Varistor VF
 2
 2
 easyeda2kicad
-CONN-SMD_DOSIN-806-0010
+BAT-SMD_CR1220-2
 
 
 0
-5
-5
+4
+2
 easyeda2kicad
-TO-263-5_L10.2-W8.6-P1.70-LS14.4-TL
+IND-SMD_L3.8-W3.8
 
 
 0
-6
-6
+2
+2
+easyeda2kicad
+MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL
+
+
+0
+10
+10
+easyeda2kicad
+SOIC-16_L10.3-W7.5-P1.27-LS10.3-BL
+
+
+0
+16
+16
